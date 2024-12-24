@@ -16,7 +16,8 @@ public class _3_typecasting_object_upcasting {
         //메서드 실행시점에, 만약 자식클래스에 오버라이딩된 메서드가 있다면, 자식클래스의 메서드가 호출됩니다.
         Animal animal = new Cat(); // upcasting : 자식클래스를 부모타입으로 변환 (부모가 더 큰 타입이므로 자동형변환)
         animal.sound(); // 실행시점에 Cat의 eat() 메소드 호출 (동적 바인딩)
-        ////부모클래스로 자식의 eat()호출
+        ////부모클래스로 자식의 eat()호출 - 다형성
+        
        
        
     }
